@@ -7,6 +7,10 @@ android {
     namespace = "com.first.weatherapp"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.first.weatherapp"
         minSdk = 24
@@ -47,4 +51,7 @@ dependencies {
 
     // lottie animation
     implementation ("com.airbnb.android:lottie:6.4.0")
+
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 }
