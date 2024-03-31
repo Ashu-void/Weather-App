@@ -383,7 +383,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
-        android:text="Made with hate\nby ASHU"
+        android:text="Made with love\nby ASHU"
         android:textColor="@color/white"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
